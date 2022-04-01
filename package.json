@@ -4,7 +4,8 @@
   "description": "Ini adalah aplikasi mealapp yang digunakan sebagai bahan submission pada kelas front-end fundamental",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.prod.js",
+    "start-dev": "webpack serve --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,6 @@
   ],
   "author": "M. Akbar Husein Srg",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AkbarHusein/MealApp/issues"
-  },
   "homepage": "https://github.com/AkbarHusein/MealApp#readme",
   "devDependencies": {
     "@babel/core": "^7.17.8",
