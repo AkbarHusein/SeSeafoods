@@ -1,0 +1,40 @@
+{
+  "name": "mealapp",
+  "version": "1.0.0",
+  "description": "Ini adalah aplikasi mealapp yang digunakan sebagai bahan submission pada kelas front-end fundamental",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkbarHusein/MealApp.git"
+  },
+  "keywords": [
+    "mealapp",
+    "dicoding",
+    "submission",
+    "front-end",
+    "fundamental"
+  ],
+  "author": "M. Akbar Husein Srg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkbarHusein/MealApp/issues"
+  },
+  "homepage": "https://github.com/AkbarHusein/MealApp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "axios": "^0.26.1",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash.compact": "^3.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  }
+}
