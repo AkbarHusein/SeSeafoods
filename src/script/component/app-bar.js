@@ -2,7 +2,6 @@ class AppBar extends HTMLElement {
   connectedCallback() {
     this.render();
   }
-
   render() {
     this.innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -28,5 +27,4 @@ class AppBar extends HTMLElement {
     `;
   }
 }
-
 customElements.define("app-bar", AppBar);

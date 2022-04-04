@@ -16,7 +16,6 @@ class Render {
       "row-cols-xl-4"
     );
     modalContent.appendChild(mealList);
-
     if (mealsData.length > 0) {
       const mealListElement = document.querySelector("meal-list");
       mealListElement.meals = mealsData;
@@ -28,7 +27,6 @@ class Render {
       });
     }
   }
-
   static fallbackResult(error) {
     Swal.fire({
       icon: "error",

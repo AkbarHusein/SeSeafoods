@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkbarHusein/MealApp.git"
+    "url": "git+https://github.com/AkbarHusein/SeSeafoods.git"
   },
   "keywords": [
     "mealapp",
@@ -20,7 +20,7 @@
   ],
   "author": "M. Akbar Husein Srg",
   "license": "ISC",
-  "homepage": "https://github.com/AkbarHusein/MealApp#readme",
+  "homepage": "https://github.com/AkbarHusein/SeSeafoods#readme",
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
