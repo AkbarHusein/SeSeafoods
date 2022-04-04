@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meal App</title>
+</head>
+
+<body>
+  <header>
+    <div class="sticky-top">
+      <app-bar></app-bar>
+    </div>
+    <div class="jumbotron jumbotron-fluid my-0">
+      <div class="container">
+        <h1 class="display-4 mt-5"><span class="text-white">Providing you the freshest gifts of the
+            sea.</span>
+        </h1>
+        <p class="lead"><span class="text-warning">Delicious eats start here.</span></p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <section id="katalog" class="container py-5 my-sm-5 my-0 text-center text-sm-left">
+        <article>
+          <div class="section-text">
+            <div class="row row-cols-1 row-cols-sm-2 align-items-center">
+              <div class="col">
+                <div>
+                  <h2>Kami Menyediakan <br>Berbagai hidangan <span> seafood</span>.</h2>
+                </div>
+              </div>
+              <div class="col">
+                <p class="text-content ">
+                  Koki di dapur kami adalah para ahli dibidang masakan berbahan utama seafood
+                  <br> Dengan pengalaman memasak berbagai masakan seafood <br> kami menyajikan banyak pilihan
+                  hidangan yang dapat anda nikmati.
+                </p>
+                <div class="btn-wrapper">
+                  <!-- !Button trigger modal -->
+                  <button type="button" class="btn btn-outline-primary btn-katalog" data-toggle="modal"
+                    data-target="#staticBackdrop">
+                    Katalog
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="banner1" class="index-page-image paralax">
+        <div class="index-page-content"></div>
+      </section>
+      <section id="katalog" class="container py-5 my-sm-5 my-0 text-center">
+        <article>
+          <div class="section-text">
+            <div class="row row-cols-1 row-cols-sm-2 align-items-center flex-row-reverse">
+              <div class="col">
+                <div>
+                  <h2>Dengan <span>seafood</span> kualitas terbaik.</h2>
+                </div>
+              </div>
+              <div class="col">
+                <p class="text-content">
+                  Kami menjamin setiap masakan yang dihidangankan <br> berasal dari bahan pangan dengan kualitas dan
+                  mutu terbaik
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="banner2" class="index-page-image paralax">
+        <div class="index-page-content"></div>
+      </section>
+      <section id="tentang" class="container py-5 my-sm-5 my-0 text-center ">
+        <div class="profile row row-cols-1 row-cols-sm-2 align-items-center justify-content-center">
+          <img alt="Profile" class="col profile-image rounded-circle w-100 ">
+          <aside class="col deskription-profile mt-3 mt-sm-0">
+            <h2>Tentang Owner</h2>
+            <p>Hola! saya M. Akbar Husein Siregar, saya seorang Mahasiswa Teknik Informatika <br>
+              Selain Tertarik dalam bidang Teknologi Digital<br> Saya juga tertarik akan dunia kuliner, khususnya
+              seafoods
+            </p>
+          </aside>
+        </div>
+      </section>
+    </div>
+    <!-- !Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel"><span>The freshest picks all laid out for you.</span>
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="form-group" id="form-search">
+              <div class="row align-items-center">
+                <div class="col col-12 col-sm-6">
+                  <div class="search-wrapper">
+                    <search-bar class="form-group"></search-bar>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <section id="modalContent"></section>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="p-4 bg-dark text-center text-white">
+    <p class="m-0">SeSeafoods&#169;2022</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap");
+* {
+  transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Rum Raisin", sans-serif;
+}
+app-bar {
+  right: 0;
+  left: 0;
+}
+.nav-link {
+  color: #f5f5f5 !important;
+  font-size: 24px !important;
+}
+.nav-link:hover {
+  color: #ea5c2b !important;
+}
+a.navbar-brand {
+  color: #ea5c2b !important;
+  font-size: 38px !important;
+}
+
+.jumbotron {
+  padding-top: 20px !important;
+  height: 400px !important;
+  background-image: url("~../assets/images/sea.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.index-page-image {
+  height: 350px;
+}
+
+.btn-katalog {
+  color: #ea5c2b;
+  border-color: #ea5c2b;
+}
+.btn-katalog:hover,
+.btn-katalog:active {
+  color: #f5f5f5 !important;
+  background-color: #ea5c2b !important;
+  border-color: #ea5c2b !important;
+}
+.paralax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+article span {
+  color: #ea5c2b;
+}
+.text-content {
+  font-size: 18px;
+}
+#banner1 {
+  background-image: url("~../assets/images/jumbotron3.jpg");
+}
+#banner2 {
+  background-image: url("~../assets/images/jumbotron1.jpg");
+}
+
+.profile-image {
+  max-width: 400px;
+}
+
+.deskription-profile {
+  max-width: 400px;
+  font-size: 21px !important;
+}
+
+.deskription-profile h2 {
+  color: #d4ac2b !important;
+  font-size: 38px !important;
+}
+
+footer {
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron {
+    height: 300px !important;
+  }
+  .jumbotron h1 {
+    font-size: 32px;
+  }
+
+  button.btn-katalog {
+    width: 100%;
+    text-align: center !important;
+  }
+  .profile-image {
+    max-width: 250px;
+  }
+}
